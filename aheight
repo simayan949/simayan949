@@ -1,0 +1,22 @@
+}, 
+ aheight:function(){ 
+  var h = document.documentElement.clientHeight; 
+  return Math.abs(Math.floor(Math.random()*h-200))+201; 
+ }, 
+ firecracker:function(){  
+ var b = document.createElement('div');  
+ var w = document.body.clientWidth;  
+ b.style.color = this.color();  
+ b.style.position = 'absolute';  
+ b.style.bottom = 0;  
+ b.style.left = Math.floor(Math.random()*w)+1+'px';  
+ document.body.appendChild(b);  
+ return b;  
+}, 
+ rise:function(){ 
+  var o = this.firecracker(); 
+  var n = this.aheight(); 
+  var speed = this.speed; 
+  var e = this.expl; 
+  var s = this.size; 
+  var k = n;  

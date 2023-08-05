@@ -1,0 +1,17 @@
+} 
+ 
+	protected boolean doAccountExists(String userId) throws UserProfileResourceException { 
+	 
+		System.out.println("SampleUserManagerImpl.doAccountExists --- ");  
+		    
+		// Use the External Proxy search method to check if the account exist 
+		return proxy.searchUser(userId); 
+	} 
+  	 
+  	 
+  	protected boolean doAddUser(User user) throws UserProfileResourceException{ 
+		 
+		boolean updated = false; 
+		 
+		//This is not an allowed operation.If this is not the case add the code to 
+    // implement it 

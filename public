@@ -1,0 +1,6 @@
+   jndiCtxFactory, connFactory, providerURL, topicName); 
+  } 
+ 
+  public void handleMsg() 
+  throws CDSEventServiceSubscriberException 
+  { 

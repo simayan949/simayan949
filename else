@@ -1,0 +1,15 @@
+}
+			else
+			{
+				map[i][j] = 0;
+			}
+		}
+	}
+}
+ 
+void Game::gameOver()
+{
+	for (int i = 5; i < 15; i++)
+	{
+		SetPos(1, i);
+		cout << "      

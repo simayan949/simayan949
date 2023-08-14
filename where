@@ -1,0 +1,9 @@
+package ianywhere.ultralitej.demo;
+import ianywhere.ultralitej.*;
+
+/** Sample program to dump schema of a database.
+ * This sample extracts schema information into a set of data structures
+ * (TableArray, OptionArray) before dumping out the meta data so as to
+ * provide for future schema information lookup.
+ */
+public class DumpSchema

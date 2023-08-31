@@ -1,0 +1,4 @@
+ durable = Boolean.valueOf(args[3]).booleanValue(); 
+      transactional = Boolean.valueOf(args[4]).booleanValue(); 
+      jndiCtxFactory = args[5]; 
+      connFactory = args[
